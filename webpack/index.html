@@ -13,7 +13,7 @@
 				if(baseIndex >=0) {
 					basePath = location.pathname.split("/").splice(0, baseIndex + 1).join("/") + "/";
 				}
-				window["_base_href"] = basepath;
+				window["_base_href"] = basePath;
 				document.write("<base href=\"" + basePath + "\" />");
 			})();
 		</script>
