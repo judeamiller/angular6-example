@@ -4,8 +4,8 @@
   "license": "Apache-2.0",
   "author": {
     "name": "Jude Baca-Miller",
-    "email":"judeamiller@gmail.com",
-    "github url":"https://github.com/judeamiller/"
+    "email": "judeamiller@gmail.com",
+    "github url": "https://github.com/judeamiller/"
   },
   "scripts": {
     "build": "rimraf public_html/dist && tsc && webpack --config webpack/webpack.live.js --progress --profile --bail",
