@@ -1,17 +1,20 @@
 import {Component, OnInit} from "@angular/core";
-import {User} from "../shared/classes/user";
+import {User} from "../shared/interfaces/user";
 import {UserService} from "../shared/services/user.service";
 
 @Component({
-	template:  require("./splash.component.html")
+	template: require("./splash.component.html")
 })
 
-export class SplashComponent implements OnInit {
+export class SplashComponent implements OnInit{
 	users: User[] = [];
 
-	constructor(private userService: UserService) {}
+	constructor(protected userService: UserService) {}
 
-	ngOnInit(): void {
-		this.userService.getAllUsers().subscribe(users => this.users = users);
+
+	ngOnInit():void {
+		this.userService.getAllUsers()
+			.subscribe(users => this.users = users);
 	}
+
 }
