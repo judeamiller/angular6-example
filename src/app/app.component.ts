@@ -1,7 +1,7 @@
 import {Component} from "@angular/core";
 
 @Component({
-	selector: "angular6-example-app",
+	selector: "angular-example-app",
 	template: require("./app.component.html")
 })
 
