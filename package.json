@@ -3,14 +3,10 @@
   "version": "1.0.0",
   "license": "Apache-2.0",
   "author": {
-    "name": "Jude Baca-Miller",
-    "email": "judeamiller@gmail.com"
+    "name": "Erik Clevenger",
+    "email": "erik@modwrk.com"
   },
   "contributors": [
-    {
-      "name": "Erik Clevenger",
-      "email": "erik@modwrk.com"
-    },
     {
       "name": "Eric Debelak",
       "email": "eric@11online.us"
@@ -34,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/judeamiller/angular6-example.git"
+    "url": "https://github.com/deepdivedylan/data-design.git"
   },
   "dependencies": {
     "@angular/common": "^6.0.0",
